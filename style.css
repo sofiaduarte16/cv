@@ -1,0 +1,24 @@
+/*RESET */
+* {
+ MARGIN: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+MAIN {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap ;
+    flex-flow: column nowrap;   
+}
+ main section {
+    background-color: rgb(255, 196, 174); 
+ }
+
+section:first-child {
+    background-color: rgb(225, 195, 255);
+}
+
+main section:last-child {
+    background-color: rgb(208, 255, 228);
+}
